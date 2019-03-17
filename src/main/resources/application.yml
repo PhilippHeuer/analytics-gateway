@@ -8,3 +8,10 @@ service:
   description: @project.description@
   version: @project.version@
 
+# Logging
+logging:
+  level:
+    root: INFO
+    service: TRACE
+
+# Outgoing Services
