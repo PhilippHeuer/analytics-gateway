@@ -1,8 +1,15 @@
-# Spring Boot - Rest Template
+# Analytics Gateway
 
-## Endpoints
+Can be configured as backend for multiple analytics backends, to allow you to replace them later on or bypass free-plan limits of the platform if required by routing to your own analytics service.
 
-- /management/health
-- /management/info
-- /management/metrics
-- /management/api-docs
+## Incoming Formats
+
+- Segment.IO
+
+## Outgoing Formats
+
+- Segment.IO
+
+## License
+
+Released under the [MIT license](./LICENSE).
